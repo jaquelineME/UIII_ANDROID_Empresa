@@ -112,6 +112,7 @@ class Inicio extends StatelessWidget {
                       height: 100,
                       child: Center(
                         child: Text("EMPRESA", textAlign: TextAlign.center),
+                        style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                       ),
                     ),
                   ),
@@ -128,7 +129,7 @@ class Inicio extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(10),
                     child: RaisedButton(
-                      color: Colors.white,
+                      color: Colors.redAccent,
                       shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
                       onPressed: () {
                         Navigator.pushNamed(context, "/productos");
@@ -138,6 +139,7 @@ class Inicio extends StatelessWidget {
                         height: 100,
                         child: Center(
                           child: Text("PRODUCTOS", textAlign: TextAlign.center),
+                          style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                         ),
                       ),
                     ),
@@ -159,6 +161,7 @@ class Inicio extends StatelessWidget {
                         height: 100,
                         child: Center(
                           child: Text("CONTACTO", textAlign: TextAlign.center),
+                          style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                         ),
                       ),
                     ),
