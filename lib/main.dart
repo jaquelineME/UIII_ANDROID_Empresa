@@ -111,8 +111,8 @@ class Inicio extends StatelessWidget {
                       width: 100,
                       height: 100,
                       child: Center(
-                        child: Text("EMPRESA", textAlign: TextAlign.center),
-                        style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+                        child: Text("EMPRESA", textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900)),
+                        
                       ),
                     ),
                   ),
@@ -138,8 +138,8 @@ class Inicio extends StatelessWidget {
                         width: 100,
                         height: 100,
                         child: Center(
-                          child: Text("PRODUCTOS", textAlign: TextAlign.center),
-                          style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+                          child: Text("PRODUCTOS", textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900)),
+                          
                         ),
                       ),
                     ),
@@ -160,8 +160,8 @@ class Inicio extends StatelessWidget {
                         width: 100,
                         height: 100,
                         child: Center(
-                          child: Text("CONTACTO", textAlign: TextAlign.center),
-                          style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+                          child: Text("CONTACTO", textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900)),
+                          
                         ),
                       ),
                     ),
