@@ -86,7 +86,7 @@ class Inicio extends StatelessWidget {
                       height: 100,
                       child: Center(
                         child: Text(
-                          "Inicio",
+                          "INICIO",
                           textAlign: TextAlign.center,
                           style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                         ),
@@ -96,8 +96,77 @@ class Inicio extends StatelessWidget {
                 ) //Fin de padding
               ], //Fin de widget[]
             ), //Fin columna interna
+
+            Column(
+              children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.all(10),
+                  child: RaisedButton(
+                    color: Colors.redAccent,
+                    shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                    onPressed: () {
+                      Navigator.pushNamed(context, "/empresa");
+                    },
+                    child: SizedBox(
+                      width: 100,
+                      height: 100,
+                      child: Center(
+                        child: Text("EMPRESA", textAlign: TextAlign.center),
+                      ),
+                    ),
+                  ),
+                ) //pading
+              ], //fin widget
+            ), //Fin columna 2
           ] //Widget[]
               ), //Fin de fila 1
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Column(
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: RaisedButton(
+                      color: Colors.white,
+                      shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                      onPressed: () {
+                        Navigator.pushNamed(context, "/productos");
+                      },
+                      child: SizedBox(
+                        width: 100,
+                        height: 100,
+                        child: Center(
+                          child: Text("PRODUCTOS", textAlign: TextAlign.center),
+                        ),
+                      ),
+                    ),
+                  )
+                ],
+              ),
+              Column(
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: RaisedButton(
+                      color: Colors.redAccent,
+                      shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                      onPressed: () {
+                        Navigator.pushNamed(context, "/contacto");
+                      },
+                      child: SizedBox(
+                        width: 100,
+                        height: 100,
+                        child: Center(
+                          child: Text("CONTACTO", textAlign: TextAlign.center),
+                        ),
+                      ),
+                    ),
+                  )
+                ],
+              ),
+            ],
+          ),
         ] //Fin del widget
             ), //Columna
       ), //Fin de Container
