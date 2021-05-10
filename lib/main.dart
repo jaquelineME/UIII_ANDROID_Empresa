@@ -93,7 +93,7 @@ class Inicio extends StatelessWidget {
                             "INICIO",
                             textAlign: TextAlign.center,
                             style: TextStyle(color: Colors.black,
-                            fontWeight: FontWeight.w900)
+                            fontWeight: FontWeight.w900),
                           ),
                         ), //Fin center
                       ), //Fin sizebox
