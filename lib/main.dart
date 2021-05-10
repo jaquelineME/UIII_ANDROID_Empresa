@@ -86,7 +86,7 @@ class Inicio extends StatelessWidget {
                       height: 100,
                       child: Center(
                         child: Text(
-                          "INICIO",
+                          "Inicio",
                           textAlign: TextAlign.center,
                           style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
                         ),
