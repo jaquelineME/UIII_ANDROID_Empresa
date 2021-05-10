@@ -81,7 +81,7 @@ class Inicio extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushNamed(context, "/inicio");
                     },
-                    child: SizeBox(
+                    child: SizedBox(
                       width: 100,
                       height: 100,
                       child: Center(
